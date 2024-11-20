@@ -53,3 +53,9 @@ p {
 .margin {
     margin: 20px 0;
 }
+
+/* media queries */
+
+@media screen and (min-width: 1440px) {
+    .container {}
+}
