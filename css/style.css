@@ -14,22 +14,38 @@ body {
 }
 
 .container {
-    padding: 20px;
+    padding: 10px;
 }
 
+.card {
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
 
+img {
+    max-width: 100%;
+    border-radius: 20px;
+}
 
 h1 {
     font-weight: 700;
+    font-size: 24px;
+
 }
 
 p {
     font-weight: 400;
     font-size: 15px;
     color: hsl(216, 15%, 48%);
+    padding: 0 20px;
 }
 
 /* utili */
 .t-center {
     text-align: center;
+}
+
+.margin {
+    margin: 20px 0;
 }
